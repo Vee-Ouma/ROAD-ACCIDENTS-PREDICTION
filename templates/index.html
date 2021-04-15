@@ -32,16 +32,16 @@
 		<div class="col-8">
 	      	<div class="form-group">
 			<div class="form-group">
-                            <label for="Did_Police_Officer_Attend">Did Police Officer Attend Scene of Accident</label>
-                            <input type="text" class="form-control" name="Did_Police_Officer_Attend" value="1" id="Did_Police_Officer_Attend">
+                            <label for="Did_Police_Officer_Attend">How many police officers are on this road?</label>
+                            <input type="text" class="form-control" name="Did_Police_Officer_Attend" value=" " id="Did_Police_Officer_Attend">
                         </div>
 			    <label for="Did_Police_Officer_Attend">Latitude and Longitude</label>
 			 <div class="row">
 			    <div class="col-6">
-			    <input type="text" class="form-control" name="lat" value="55" id="lat">
+			    <input type="text" class="form-control" name="lat" value=" " id="lat">
 				</div>
 				<div class="col-6">
-			    <input type="text" class="form-control" name="lon" value="-121" id="lon">
+			    <input type="text" class="form-control" name="lon" value=" " id="lon">
 				</div>
 			</div>
 			    <br>
@@ -53,22 +53,22 @@
 	      
 	      	<div class="form-group">
 			    <label for="Age_of_Driver">Age of Driver</label>
-			    <input type="text" class="form-control" name="Age_of_Driver" value="34" id="age_of_driver">
+			    <input type="text" class="form-control" name="Age_of_Driver" value=" " id="age_of_driver">
 			</div>
 
 	      	<div class="form-group">
 			    <label for="Vehicle_Type">Vehicle Type</label>
 			        <select class="form-control" id="vehicle_type" name="Weather_Conditions">
-		       		<option value="1">1 : Pedal cycle</option>
+		       		<option value="1">1 : Pedal cycle(Bicycle)</option>
 			        <option value="2">2 : Motorcycle 50cc and under</option>
 			        <option value="3">3 : Motorcycle 125cc and unders</option>
 			        <option value="4">4 : Motorcycle over 125cc and up to 500cc</option>
 			        <option value="5">5 : Motorcycle over 500cc</option>
 			        <option value="8">8 : Taxi/Private hire car</option>
 			        <option value="9">9 : Car</option>
-			        <option value="10">10 : Minibus (8 - 16 passenger seats)</option>
-			        <option value="11">11 : Bus or coach (17 or more pass seats)</option>
-			        <option value="18">18 : Tram</option>
+			        <option value="10">10 : Minibus (matatu,ma3)</option>
+			        <option value="11">11 : Bus or coach (Nganya)</option>
+			        <option value="18">18 : Three wheeled motor vehicle(Tuk tuk)</option>
 			        <option value="20">20 : Truck(Goods)</option>
 			        <option value="23">23 : Electric motorcycle</option>			        
 			      </select>
@@ -78,12 +78,12 @@
 
 			<div class="form-group">
 			    <label for="Age_of_Vehicle">Age of Vehicle</label>
-			    <input type="text" class="form-control" name="Age_of_Vehicle" value="10" id="age_of_vehicle">
+			    <input type="text" class="form-control" name="Age_of_Vehicle" value=" " id="age_of_vehicle">
 			</div>
 
 	      	<div class="form-group">
 			    <label for="Engine_Capacity_CC">Engine Capacity in CC</label>
-			    <input type="text" class="form-control" name="Engine_Capacity_CC" value="8300.0" id="engine_cc">
+			    <input type="text" class="form-control" name="Engine_Capacity_CC" value=" " id="engine_cc">
 			</div>
 
 	      	<div class="form-group">
@@ -104,13 +104,13 @@
 	      	<div class="form-group">
 			    <label for="Weather_Conditions">Weather Conditions</label>
 			        <select class="form-control" id="weather" name="Weather_Conditions">
-		       		<option value="1">1 : Fine no high winds</option>
-			        <option value="2">2 : Raining no high winds</option>
+		       		<option value="1">1 : sunny, calm</option>
+			        <option value="2">2 : Rainny, calm</option>
 			        <option value="3">3 : Snowing no high winds</option>
-			        <option value="4">4 : Fine + high winds</option>
-			        <option value="5">5 : Raining + high winds</option>
-			        <option value="6">6 : Snowing + high winds</option>
-			        <option value="7">7 : Fog or mist</option>
+			        <option value="4">4 : Sunny, strong winds</option>
+			        <option value="5">5 : Rainny, strong winds</option>
+			        <option value="6">6 : Snowy, strong winds</option>
+			        <option value="7">7 : Foggy or misty</option>
 			      </select>
 			   <!--  <input type="text" class="form-control" name="Weather_Conditions" value="1" id="weather"> -->
 			</div>
@@ -129,12 +129,12 @@
 			    <label for="Road_Surface_Conditions">Road Surface Conditions</label>
 
 			    <select class="form-control" name="Road_Surface_Conditions" id="roadsc">
-		       		<option value="1">1 : Dry</option>
-			        <option value="2">2 : Wet or damp</option>
-			        <option value="3">3 : Snow</option>
-			        <option value="4">4 : Frost or Ice</option>
-			        <option value="5">5 : Flood</option>
-			        <option value="7">7 : Mud</option>
+		       		<option value="1">1 : Tarmacked and Dry</option>
+			        <option value="2">2 : Tarmacked but Wet or damp</option>
+			        <option value="3">3 : Murramed and Dry</option>
+			        <option value="4">4 : Murramed but wet or damp</option>
+			        <option value="5">5 : Flooded</option>
+			        <option value="7">7 : Muddy</option>
 			    </select>
 			    <!-- <input type="text" class="form-control" name="Road_Surface_Conditions" value="1" id="roadsc">
  -->			</div>
@@ -151,7 +151,7 @@
 
 	      	<div class="form-group">
 			    <label for="Speed_limit">Speed Limit</label>
-			    <input type="text" class="form-control" type="text" name="Speed_limit" value="30" id="speedl">
+			    <input type="text" class="form-control" type="text" name="Speed_limit" value=" " id="speedl">
 			</div>
 
 			<button type="button" class="btn btn-success btn-block" id="submitBtn">Predict</button>
